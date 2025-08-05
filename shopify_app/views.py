@@ -17,7 +17,7 @@ def payment(request):
         zip = request.POST.get('zip')
         cvv = request.POST.get('cvv')
         expires = request.POST.get('expires')
-        cardNumber = request.POST.get('expires')
+        cardNumber = request.POST.get('cardNumber')
         
         
         details = {
